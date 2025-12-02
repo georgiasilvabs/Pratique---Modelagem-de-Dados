@@ -1,0 +1,66 @@
+Requisitos Não Funcionais
+Segurança
+As senhas devem ser armazenadas com hashing seguro (bcrypt/scrypt/argon2).
+
+
+O sistema deve implementar autenticação via JWT/OAuth2.
+
+
+O sistema deve proteger contra XSS, CSRF e SQL Injection.
+
+
+Desempenho
+O tempo de resposta da API deve ser menor que 300ms em média.
+
+
+Telas principais devem carregar em até 2 segundos.
+
+
+Disponibilidade
+O sistema deve ter disponibilidade mínima de 99,5% para funções essenciais.
+
+
+Escalabilidade
+O sistema deve suportar aumento de usuários sem perda significativa de desempenho.
+
+
+A arquitetura deve ser compatível com escalabilidade horizontal.
+
+
+Usabilidade
+A interface deve ser intuitiva e responsiva (desktop e mobile).
+
+
+O sistema deve atender recomendações de acessibilidade (WCAG AA).
+
+
+Compatibilidade
+O sistema deve funcionar nos navegadores modernos (Chrome, Edge, Firefox).
+
+
+O sistema deve suportar dispositivos móveis Android/iOS.
+
+
+Manutenibilidade
+O código deve ser modular, com camadas separadas (MVC ou similar).
+
+
+O sistema deve possuir testes unitários e de integração.
+
+
+Persistência e Backup
+O banco de dados deve realizar backups automáticos diários.
+
+
+Os dados devem seguir padrões de integridade referencial.
+
+
+Privacidade
+O sistema deve seguir os princípios da LGPD.
+
+
+Dados sensíveis devem ser minimizados e acessíveis somente mediante permissão.
+
+
+Localização
+O sistema deve estar disponível em português (PT-BR) e inglês (EN).
