@@ -1,0 +1,40 @@
+Autenticação e Controle de Acesso
+● O sistema deve permitir cadastro de usuários (alunos, professores e admins).
+● O sistema deve permitir login com email e senha.
+● O sistema deve permitir login via SSO institucional (opcional).
+● O sistema deve permitir recuperação de senha.
+Gestão de Usuários
+● O sistema deve permitir editar dados pessoais (nome, foto, curso e semestre).
+● O sistema deve permitir definir papéis (ALUNO, PROFESSOR, ADMIN).
+Gestão de Cursos e Turmas
+● O sistema deve permitir cadastrar cursos da área de TI.
+● O sistema deve permitir cadastrar turmas/disciplinas vinculadas aos cursos.
+● O sistema deve permitir vincular alunos às turmas.
+● O sistema deve permitir vincular professores responsáveis pelas turmas.
+Gestão de Atividades Acadêmicas
+● Deve ser possível criar atividades (tarefas, provas, trabalhos, leituras, eventos).
+● Deve ser possível definir data de início, prazo e prioridade.
+● O sistema deve permitir anexar arquivos às atividades.
+● O sistema deve permitir editar e excluir atividades.
+● O professor deve conseguir atribuir notas/feedback às atividades enviadas.
+Visualização e Organização
+● O usuário deve visualizar suas atividades em formato de lista.
+● O usuário deve visualizar suas atividades em um calendário mensal/semanal/diário.
+● O sistema deve permitir filtrar atividades por tipo, curso, turma ou prioridade.
+● O sistema deve permitir ordenar atividades por prazo, data ou importância.
+Interações com Atividades
+● O aluno deve poder marcar atividades como concluídas.
+● O usuário deve poder comentar em atividades.
+● O sistema deve permitir upload e download de anexos.
+● O sistema deve registrar histórico de alterações das atividades.
+Notificações
+● O sistema deve enviar notificações sobre prazos e eventos.
+● O usuário deve poder configurar lembretes (ex.: 1h antes, 24h antes).
+Relatórios
+● O sistema deve gerar relatório de atividades por curso, turma e período.
+● O sistema deve exportar atividades para CSV ou arquivo de calendário (.ics).
+Administração
+● O administrador deve gerenciar usuários, cursos e turmas.
+● O sistema deve registrar logs de criação, alteração e exclusão de dados.
+API
+● O sistema deve fornecer API REST para acesso às funcionalidades principais.
